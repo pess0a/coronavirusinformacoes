@@ -9,9 +9,6 @@ import com.pessoadev.coronavirusnumbers.R
 import com.pessoadev.coronavirusnumbers.util.toBrazilianStringDate
 import com.prof.rssparser.Article
 import kotlinx.android.synthetic.main.item_news.view.*
-import java.text.DateFormat
-import java.text.SimpleDateFormat
-import java.util.*
 
 
 class NewsAdapter(list: List<Article>) :

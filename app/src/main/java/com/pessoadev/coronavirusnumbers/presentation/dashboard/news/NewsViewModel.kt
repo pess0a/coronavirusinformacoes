@@ -10,18 +10,19 @@ import kotlinx.coroutines.launch
 
 class NewsViewModel : BaseViewModel() {
     val newsList = MutableLiveData<List<Article>>()
+    val error = MutableLiveData<String>()
 
     fun getG1RSS() {
-        val url = "http://g1.globo.com/dynamo/ciencia-e-saude/rss2.xml"
+        val url = "https://g1.globo.com/dynamo/ciencia-e-saude/rss2.xml"
 
         scope.launch(Dispatchers.Main) {
             try {
                 val parser = Parser()
                 val channel = parser.getChannel(url)
                 newsList.value = channel.articles.toList()
-                var a = 1
             } catch (e: Exception) {
-                // Handle the exception
+                e.printStackTrace()
+                error.value = e.localizedMessage
             }
         }
     }

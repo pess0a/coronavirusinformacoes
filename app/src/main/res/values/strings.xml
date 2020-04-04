@@ -6,5 +6,5 @@
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="corona_virus_title">Coronavirus - Informações</string>
-    <string name="our_info">Este aplicativo foi feito e está sendo atualzado apenas para fins educativos.\n\nAs informações sobre o Corona Vírus está sendo buscada aqui: \nhttps://github.com/pomber/covid19\n\nAs notícias estão sendo buscadas do portal G1:\nhttps://g1.globo.com/ \n\nAutores:\nFelipe Leandro Pessoa - Github: pess0a\nEverton Rodrigues Resende - Github: everton4292</string>
+    <string name="our_info">Este aplicativo foi criado apenas para fins educativos e recebe atualizações constantes.\n\nAs informações sobre o COVID-19 estão sendo buscadas aqui: \nhttps://github.com/pomber/covid19\n\nA fonte das notícias apresentadas aqui correspondem ao portal G1:\nhttps://g1.globo.com/ \n\nAutores:\nFelipe Leandro Pessoa - Github: pess0a\nEverton Rodrigues Resende - Github: everton4292</string>
 </resources>
