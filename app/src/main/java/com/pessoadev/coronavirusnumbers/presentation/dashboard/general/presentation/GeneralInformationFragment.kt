@@ -33,7 +33,7 @@ class GeneralInformationFragment : Fragment() {
         textViewInfectedLast24Hours.text = CountriesCache.getCountriesInfectedLast24Hours().toDecimalFormat()
         textViewVictimsLast24Hours.text = CountriesCache.getCountriesDeathLast24Hours().toDecimalFormat()
         textViewRecoveryLast24Hours.text = CountriesCache.getCountriesRecoveryLast24Hours().toDecimalFormat()
-        textViewCountriesLast24Hours.text = CountriesCache.getCountriesCountLast24Hours().toDecimalFormat()
+        
 
         vm.getG1RSS()
     }

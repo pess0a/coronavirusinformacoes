@@ -27,11 +27,18 @@ class CountriesCache {
             }
 
             countriesList.map {
-                //TODO - Everton
-                countriesCountLast24Hours = 0
-                countriesDeathLast24Hours = 0
-                countriesRecoveryLast24Hours = 0
-                countriesInfectedLast24Hours = 0
+                var deathLastA = it.status.last().deaths
+                var deathLastB = it.status[it.status.size-2].deaths
+
+                var recoveryLastA = it.status.last().recovered
+                var recoveryLastB = it.status[it.status.size-2].recovered
+
+                var infectedLastA = it.status.last().confirmed
+                var infectedLastB = it.status[it.status.size-2].confirmed
+
+                countriesDeathLast24Hours += deathLastA - deathLastB
+                countriesRecoveryLast24Hours += recoveryLastA - recoveryLastB
+                countriesInfectedLast24Hours += infectedLastA - infectedLastB
             }
 
         }
