@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Coronavirus Numbers</string>
+    <string name="loading_data">Carregando os dados…</string>
+    <string name="infecteds">Infectados</string>
+    <string name="dead">Mortos</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="corona_virus_title">Coronavirus - Informações</string>
+</resources>
