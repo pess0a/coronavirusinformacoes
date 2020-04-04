@@ -7,7 +7,7 @@
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/appCompatTextView"
-        style="@style/H3"
+        style="@style/Title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="12dp"
@@ -35,7 +35,7 @@
                 android:layout_height="match_parent">
 
                 <androidx.appcompat.widget.AppCompatTextView
-                    style="@style/H2"
+                    style="@style/CardTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
@@ -47,7 +47,7 @@
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/textViewInfectedLast24Hours"
-                    style="@style/H2"
+                    style="@style/CardTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
@@ -78,7 +78,7 @@
                 android:layout_height="match_parent">
 
                 <androidx.appcompat.widget.AppCompatTextView
-                    style="@style/H2"
+                    style="@style/CardTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
@@ -90,7 +90,7 @@
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/textViewRecoveryLast24Hours"
-                    style="@style/H2"
+                    style="@style/CardTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
@@ -120,7 +120,7 @@
                 android:layout_height="match_parent">
 
                 <androidx.appcompat.widget.AppCompatTextView
-                    style="@style/H2"
+                    style="@style/CardTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
@@ -132,7 +132,7 @@
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/textViewVictimsLast24Hours"
-                    style="@style/H2"
+                    style="@style/CardTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
@@ -162,7 +162,7 @@
                 android:layout_height="match_parent">
 
                 <androidx.appcompat.widget.AppCompatTextView
-                    style="@style/H2"
+                    style="@style/CardTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
@@ -174,7 +174,7 @@
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/textViewCountriesLast24Hours"
-                    style="@style/H2"
+                    style="@style/CardTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"

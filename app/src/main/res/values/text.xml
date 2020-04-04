@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="H1" parent="TextAppearance.AppCompat">
-        <item name="android:fontFamily">sans-serif-light</item>
-        <item name="android:lineSpacingExtra">12sp</item>
-        <item name="android:textSize">22sp</item>
-    </style>
-
-    <style name="H2" parent="TextAppearance.AppCompat">
+    <style name="Title" parent="TextAppearance.AppCompat">
         <item name="android:fontFamily">sans-serif</item>
         <item name="android:lineSpacingExtra">8sp</item>
         <item name="android:textSize">18sp</item>
-        <item name="android:textColor">@color/black</item>
     </style>
 
-    <style name="H3" parent="TextAppearance.AppCompat">
+    <style name="CardTitle" parent="TextAppearance.AppCompat">
         <item name="android:fontFamily">sans-serif</item>
         <item name="android:lineSpacingExtra">8sp</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">16sp</item>
     </style>
 </resources>

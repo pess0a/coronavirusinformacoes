@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Desde sempre"
-        style="@style/H3"
+        style="@style/Title"
         android:layout_marginBottom="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,7 +35,7 @@
                     android:layout_height="match_parent">
 
                     <androidx.appcompat.widget.AppCompatTextView
-                        style="@style/H2"
+                        style="@style/CardTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -46,7 +46,7 @@
 
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/textViewInfected"
-                        style="@style/H2"
+                        style="@style/CardTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="8dp"
@@ -77,7 +77,7 @@
                     android:layout_height="match_parent">
 
                     <androidx.appcompat.widget.AppCompatTextView
-                        style="@style/H2"
+                        style="@style/CardTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -88,7 +88,7 @@
 
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/textViewRecovery"
-                        style="@style/H2"
+                        style="@style/CardTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="8dp"
@@ -117,7 +117,7 @@
                     android:layout_height="match_parent">
 
                     <androidx.appcompat.widget.AppCompatTextView
-                        style="@style/H2"
+                        style="@style/CardTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -128,7 +128,7 @@
 
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/textViewVictims"
-                        style="@style/H2"
+                        style="@style/CardTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="8dp"
@@ -157,7 +157,7 @@
                     android:layout_height="match_parent">
 
                     <androidx.appcompat.widget.AppCompatTextView
-                        style="@style/H2"
+                        style="@style/CardTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -168,7 +168,7 @@
 
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/textViewCountries"
-                        style="@style/H2"
+                        style="@style/CardTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="8dp"
