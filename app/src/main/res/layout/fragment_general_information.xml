@@ -18,6 +18,14 @@
             android:padding="8dp"
             android:orientation="vertical">
 
+            <TextView
+                android:id="@+id/textViewError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:textSize="22sp"
+                android:text="Erro ao buscar dados, por favor feche o aplicativo e abra novamente."/>
+
             <include
                 android:id="@+id/include"
                 layout="@layout/layout_totals" />

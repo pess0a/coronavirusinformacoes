@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Coronavirus Numbers</string>
+    <string name="app_name">Covid 19 - Info</string>
     <string name="loading_data">Carregando os dados…</string>
     <string name="infecteds">Infectados</string>
     <string name="dead">Mortos</string>

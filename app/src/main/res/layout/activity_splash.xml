@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".presentation.splash.SplashActivity">
 
-    <com.airbnb.lottie.LottieAnimationView
+    <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/animation_view"
         android:layout_width="300dp"
         android:layout_height="300dp"
@@ -14,8 +14,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:lottie_autoPlay="true"
-        app:lottie_loop="true"
-        app:lottie_rawRes="@raw/stay_safe" />
+        android:src="@mipmap/ic_launcher_foreground" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
